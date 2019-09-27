@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'poor_richardregular';
+    src: url('../fonts/poorich.woff2') format('woff2'),
+         url('../fonts/poorich.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fredoka_oneregular';
+    src: url('../fonts/fredokaone-regular.woff2') format('woff2'),
+         url('../fonts/fredokaone-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {font-family: 'fredoka_oneregular'; height: 100%;background:#2c2838; color:#000; }
+h1,h2,h3,h4,h5,h6,p,ul,ol{ margin:0px; padding:0px;}
+a {background-color: transparent;text-decoration: none; color:#000 ;}
+a:hover{background-color: transparent;text-decoration: none;}
+a:active, a:hover { background:none; text-decoration:none;outline: none !important;}
+.clear{ clear:both;}
+
+.banner{background: rgba(77,175,220,1);
+background: -moz-linear-gradient(top, rgba(77,175,220,1) 0%, rgba(233,234,235,1) 46%, rgba(233,234,235,1) 52%, rgba(68,169,218,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(77,175,220,1)), color-stop(46%, rgba(233,234,235,1)), color-stop(52%, rgba(233,234,235,1)), color-stop(100%, rgba(68,169,218,1)));
+background: -webkit-linear-gradient(top, rgba(77,175,220,1) 0%, rgba(233,234,235,1) 46%, rgba(233,234,235,1) 52%, rgba(68,169,218,1) 100%);
+background: -o-linear-gradient(top, rgba(77,175,220,1) 0%, rgba(233,234,235,1) 46%, rgba(233,234,235,1) 52%, rgba(68,169,218,1) 100%);
+background: -ms-linear-gradient(top, rgba(77,175,220,1) 0%, rgba(233,234,235,1) 46%, rgba(233,234,235,1) 52%, rgba(68,169,218,1) 100%);
+background: linear-gradient(to bottom, rgba(77,175,220,1) 0%, rgba(233,234,235,1) 46%, rgba(233,234,235,1) 52%, rgba(68,169,218,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dafdc', endColorstr='#44a9da', GradientType=0 );}
+.banrcpn{ text-align:center; font-family:-webkit-pictograph;  font-size:80px; padding:10% 0; color:#000;}
+.nav-xbootstrap {display: block; margin-bottom: 15px 0;}
+.nav-xbootstrap ul { list-style-type: none; margin: 0 auto; padding: 0; display: table;}
+.nav-xbootstrap li {list-style-type: none;margin: 0;padding: 0;display: inline-block;position: relative;font-size: 14px; color: #000;}
+.nav-xbootstrap li a { letter-spacing:1px; font-family: 'poor_richardregular'; padding: 0px 0; font-size: 16px;color: #000;
+display: inline-block;outline: 0;font-weight: 600;text-decoration: none;border-bottom: solid 1px #000;margin:15px 15px;}
+.nav-xbootstrap li:hover a {color: #fff !important;}
+ h1{font-weight: 400; text-align:center; padding:60px 0 40px 0; color:#000;  font-family: 'fredoka_oneregular';}
+.columetre{text-align:center; margin-bottom:70px;}
+.columetre h4{ font-weight: 400; text-align:center; font-size:22px; color:#000;margin-top: 15px;font-family: 'fredoka_oneregular';}
+.columetre p{ font-size:14px; text-align:center; color:#9e9e9e;}
+.yellowbg{ background:#f9fc63;}
+.futrsrvc{ margin-bottom:70px;}
+.futrsrvc p{font-size:14px; text-align:center; color:#000;}
+.footer_bg{ background:#02558b;}
+.footer_bg h1{border-bottom:solid 2px #000;display:table;line-height:60px; text-align:center;margin: 0px auto 40px auto;padding: 50px 70px 10px;}
+.footer_bg p{ text-align:center; font-size:16px; color:#000;}
+ul.socialicons { margin: 0px auto 0px auto;padding: 15px 0 90px 0; display: table;}
+ul.socialicons li {list-style: none;width: 66px;height: 66px;padding: 0 0px 0 0;margin: 0 5px;float: left;}
+ul.socialicons li a {width:66px;height: 66px;display: block;background: url(../images/social.png) no-repeat; }
+ul.socialicons li a.fb 	{ background-position:-2px -70px; }
+ul.socialicons li a.fb:hover { background-position:0px -2px; }
+ul.socialicons li a.tw 	{ background-position:-73px -70px; }
+ul.socialicons li a.tw:hover { background-position:-73px 0px; }
+ul.socialicons li a.gl 	{ background-position:-145px -70px; }
+ul.socialicons li a.gl:hover { background-position:-144px -2px; }
+ul.socialicons li a.lk 	{ background-position:-218px -70px; }
+ul.socialicons li a.lk:hover { background-position:-218px -2px; }
+ul.socialicons li a.be 	{ background-position:-289px -70px; }
+ul.socialicons li a.be:hover { background-position:-289px -2px; }
+#scrollTop{	position: fixed;bottom: 10px;right: 10px;cursor: pointer;display: none;}
+
+@media only screen and (max-width:767px) {
+h1 {text-align: center;padding: 40px 0 30px 0; }
+.banrcpn{ text-align:center; font-family:-webkit-pictograph;  font-size:60px; padding:24% 0; color:#000;}
+.nav-xbootstrap { background: #fff;width: 200px; height: 100%; display: block;position: fixed;z-index:9;left: -200px;top: 0px;-webkit-transition: left 0.25s ease; -moz-transition: left 0.25s ease;-ms-transition: left 0.25s ease; -o-transition: left 0.25s ease;
+  transition: left 0.25s ease;margin: 0;border: 0;border-radius: 0;overflow-y: auto;overflow-x: hidden;height: 100%;}
+.nav-xbootstrap ul{ margin:0px !important;}
+.nav-xbootstrap.visible:after{ position:fixed; left:200px; top:0px; content:""; width:100%; height:100%; background:#000000d6;
+-webkit-transition: left 1.25s ease;-moz-transition: left 1.25s ease; -ms-transition: left 1.25s ease;-o-transition: left 1.25s ease;transition: left 1.25s ease;}
+.nav-xbootstrap.visible:before { position:fixed;right:0px;top: 0px;content: ""; z-index:99;width:55px;height:50px; background:#ffffff;}
+.nav-xbootstrap.visible {left: 0px;-webkit-transition: right 0.25s ease;-moz-transition: right 0.25s ease;-ms-transition: right 0.25s ease;-o-transition: right 0.25s ease;transition: right 0.25s ease;}
+.nav-bg-xbootstrap {z-index:99;display:inline-block;vertical-align:middle;width:100%;height:50px;margin:0;position:absolute;top:0px;left:0px;}
+.visible .nav-bg-xbootstrap{ background:#fff !important;}
+.navbar-xbootstrap { display:inline-block;vertical-align:middle;height:50px;cursor:pointer;margin:0;position: fixed;top:0;right:0;padding: 12px;}
+.navbar-xbootstrap span { height: 2px;background: #000; margin: 5px;display: block; width: 20px;}
+.navbar-xbootstrap span:nth-child(2) { width: 20px; }
+.navbar-xbootstrap span:nth-child(3) { width: 20px; }
+.nav-xbootstrap ul { padding-top: 50px; }
+.nav-xbootstrap li { display: block; }
+.nav-xbootstrap li a { display: block;color: #505050; font-weight: 600; margin-left:25px;}
+.nav-xbootstrap li:first-child:hover a { border-radius: 0; }
+.nav-xbootstrap li:hover a { color:#505050 !important;}
+.footer_bg h1 {line-height: 40px;margin: 0px auto 15px auto;padding: 24px 10px 10px;}
+
+}
